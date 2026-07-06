@@ -1,0 +1,24 @@
+{
+  "info": {
+    "name": "OPEN RAMBO Issuing API",
+    "description": "Production-aligned partner API examples. Obtain a scoped API key from OPEN RAMBO before sending requests.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "https://openrambo.com/api/issuing/v1" },
+    { "key": "apiKey", "value": "" },
+    { "key": "cardId", "value": "" },
+    { "key": "productId", "value": "" }
+  ],
+  "auth": { "type": "apikey", "apikey": [{ "key": "key", "value": "X-API-Key", "type": "string" }, { "key": "value", "value": "{{apiKey}}", "type": "string" }, { "key": "in", "value": "header", "type": "string" }] },
+  "item": [
+    { "name": "List products", "request": { "method": "GET", "url": "{{baseUrl}}/products" } },
+    { "name": "List cards", "request": { "method": "GET", "url": "{{baseUrl}}/cards" } },
+    { "name": "Create card", "request": { "method": "POST", "header": [{ "key": "Idempotency-Key", "value": "create-{{$guid}}" }, { "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"productId\": \"{{productId}}\",\n  \"firstRechargeAmount\": 10\n}" }, "url": "{{baseUrl}}/cards" } },
+    { "name": "Get card", "request": { "method": "GET", "url": "{{baseUrl}}/cards/{{cardId}}" } },
+    { "name": "Top up card", "request": { "method": "POST", "header": [{ "key": "Idempotency-Key", "value": "topup-{{$guid}}" }, { "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"amount\": 10\n}" }, "url": "{{baseUrl}}/cards/{{cardId}}/topup" } },
+    { "name": "Freeze card", "request": { "method": "POST", "header": [{ "key": "Idempotency-Key", "value": "freeze-{{$guid}}" }], "url": "{{baseUrl}}/cards/{{cardId}}/freeze" } },
+    { "name": "Unfreeze card", "request": { "method": "POST", "header": [{ "key": "Idempotency-Key", "value": "unfreeze-{{$guid}}" }], "url": "{{baseUrl}}/cards/{{cardId}}/unfreeze" } },
+    { "name": "List card transactions", "request": { "method": "GET", "url": "{{baseUrl}}/cards/{{cardId}}/transactions?page=1&page_size=20" } }
+  ]
+}
