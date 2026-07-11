@@ -17,6 +17,9 @@ Official integration resources for platforms that need virtual-card product disc
 - [Virtual card fee analysis: what to price before launch](docs/tutorials/virtual-card-fee-analysis.md)
 - [Reconciliation basics for authorizations, settlements, and refunds](docs/tutorials/card-authorization-settlement-refund-reconciliation.md)
 - [USDT funding workflow for a card platform](docs/tutorials/usdt-funding-workflow.md)
+- [Choosing a virtual card provider for SaaS subscriptions](docs/tutorials/virtual-card-provider-for-saas-subscriptions.md)
+- [Designing a card dashboard that builds user trust](docs/tutorials/card-user-dashboard-trust.md)
+- [How to expose card issuing as an API without confusing users](docs/tutorials/card-issuing-api-without-user-confusion.md)
 
 ## Base URL
 
