@@ -21,6 +21,9 @@ Official integration resources for platforms that need virtual-card product disc
 - [Choosing a virtual card provider for SaaS subscriptions](docs/tutorials/virtual-card-provider-for-saas-subscriptions.md)
 - [Designing a card dashboard that builds user trust](docs/tutorials/card-user-dashboard-trust.md)
 - [How to expose card issuing as an API without confusing users](docs/tutorials/card-issuing-api-without-user-confusion.md)
+- [Referral rewards for a card platform: ledger and abuse controls](docs/tutorials/referral-rewards-ledger-abuse-controls.md)
+- [What support needs before investigating a virtual card decline](docs/tutorials/virtual-card-decline-support-checklist.md)
+- [API launch readiness checklist for a card issuing product](docs/tutorials/card-issuing-api-launch-readiness.md)
 
 ## Base URL
 
