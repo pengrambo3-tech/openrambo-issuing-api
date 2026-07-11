@@ -14,6 +14,9 @@ Official integration resources for platforms that need virtual-card product disc
 - [How to separate platform wallet funding from virtual card spending](docs/tutorials/wallet-card-ledger-separation.md)
 - [Building an issuing API flow with idempotency and webhook safety](docs/tutorials/issuing-api-idempotency-webhooks.md)
 - [Why advertising teams should use one controlled card per ad account](docs/tutorials/advertising-card-budget-controls.md)
+- [Virtual card fee analysis: what to price before launch](docs/tutorials/virtual-card-fee-analysis.md)
+- [Reconciliation basics for authorizations, settlements, and refunds](docs/tutorials/card-authorization-settlement-refund-reconciliation.md)
+- [USDT funding workflow for a card platform](docs/tutorials/usdt-funding-workflow.md)
 
 ## Base URL
 
