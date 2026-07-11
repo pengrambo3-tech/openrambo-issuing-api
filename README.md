@@ -8,6 +8,7 @@ Official integration resources for platforms that need virtual-card product disc
 - [OpenAPI 3.1 specification](https://openrambo.com/developers/openapi.yaml?utm_source=github&utm_medium=repository&utm_campaign=issuing_api)
 - [Postman collection](https://openrambo.com/developers/openrambo-issuing.postman_collection.json?utm_source=github&utm_medium=repository&utm_campaign=issuing_api)
 - [API launch-readiness guide](https://openrambo.com/insights/api-launch-readiness-for-api-platforms/?utm_source=github&utm_medium=repository&utm_campaign=issuing_api)
+- [Demo / pitch video](media/openrambo-demo-pitch-2026-07-11.mp4)
 
 ## Tutorials
 
