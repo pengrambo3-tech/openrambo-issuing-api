@@ -27,6 +27,7 @@ Official integration resources for platforms that need virtual-card product disc
 - [Virtual card issuing platform comparison: what teams should evaluate](docs/tutorials/virtual-card-issuing-platform-comparison.md)
 - [Advertising card weekly review checklist: owners, holds, refunds, and limits](docs/tutorials/advertising-card-weekly-review-checklist.md)
 - [SaaS subscription renewal calendar with virtual cards](docs/tutorials/saas-subscription-renewal-card-calendar.md)
+- [Agency client ad budget cards: a practical operating model](docs/tutorials/agency-client-ad-budget-cards.md)
 
 ## Base URL
 
