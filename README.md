@@ -24,6 +24,7 @@ Official integration resources for platforms that need virtual-card product disc
 - [Referral rewards for a card platform: ledger and abuse controls](docs/tutorials/referral-rewards-ledger-abuse-controls.md)
 - [What support needs before investigating a virtual card decline](docs/tutorials/virtual-card-decline-support-checklist.md)
 - [API launch readiness checklist for a card issuing product](docs/tutorials/card-issuing-api-launch-readiness.md)
+- [Virtual card issuing platform comparison: what teams should evaluate](docs/tutorials/virtual-card-issuing-platform-comparison.md)
 
 ## Base URL
 
