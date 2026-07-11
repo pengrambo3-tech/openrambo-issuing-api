@@ -26,6 +26,7 @@ Official integration resources for platforms that need virtual-card product disc
 - [API launch readiness checklist for a card issuing product](docs/tutorials/card-issuing-api-launch-readiness.md)
 - [Virtual card issuing platform comparison: what teams should evaluate](docs/tutorials/virtual-card-issuing-platform-comparison.md)
 - [Advertising card weekly review checklist: owners, holds, refunds, and limits](docs/tutorials/advertising-card-weekly-review-checklist.md)
+- [SaaS subscription renewal calendar with virtual cards](docs/tutorials/saas-subscription-renewal-card-calendar.md)
 
 ## Base URL
 
